@@ -1,0 +1,19 @@
+{
+  "name": "ploom-e2e-tests",
+  "version": "1.0.0",
+  "description": "Market-aware E2E tests for Ploom shops",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:uk": "playwright test --project=\"UK Tests\"",
+    "test:uk:headed": "playwright test --headed --project=\"UK Tests\"",
+    "test:pl": "playwright test --project=\"PL Tests\"",
+    "test:pl:headed": "playwright test --headed --project=\"PL Tests\"",
+    "test:debug": "playwright test --debug"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^22.9.0",
+    "typescript": "^5.3.0"
+  }
+}
